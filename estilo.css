@@ -1,16 +1,22 @@
 :root {
-    --principal: #F4C2C2;
-    --secundario: #B08B77;
-    --fondo: #FAF7F2;
-    --texto: #3D2314;
+    --principal: #F7D1BA;
+    --secundario: #C88A55;
+    --fondo: #FDF8F5;
+    --texto: #2C1A12;
+    --algo: #C84B31;
     --acento: #A53860;
 }
 
 /*Header*/
 body header {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     gap: 15px;
+}
+
+main{
+    width: 1200px;
+    margin: 0 auto;
 }
 
 nav ul {
@@ -25,6 +31,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: var(--principal);
 }
 
 .footer-derecho {
@@ -41,6 +48,8 @@ footer {
 section {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 article {
@@ -48,4 +57,23 @@ article {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    border: 2px solid rgb(228, 141, 255);
+}
+
+.galletas{
+    section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 2px solid rgb(228, 141, 255);
+}
+
 }
