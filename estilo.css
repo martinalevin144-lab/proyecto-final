@@ -1,7 +1,51 @@
-:root{
+:root {
     --principal: #F4C2C2;
     --secundario: #B08B77;
     --fondo: #FAF7F2;
     --texto: #3D2314;
     --acento: #A53860;
+}
+
+/*Header*/
+body header {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    list-style: none;
+    gap: 15px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-derecho {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.redes {
+    display: flex;
+    gap: 12px;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
